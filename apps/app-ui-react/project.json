@@ -51,7 +51,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "app-ui-react:build",
-        "hmr": true
+        "hmr": true,
+        "proxyConfig": "apps/app-ui-react/proxy.conf.json"
       },
       "configurations": {
         "development": {
