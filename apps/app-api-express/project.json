@@ -8,7 +8,7 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/app-api-express",
-        "main": "apps/app-api-express/src/main.ts",
+        "main": "apps/app-api-express/src/main.js",
         "tsConfig": "apps/app-api-express/tsconfig.app.json",
         "assets": ["apps/app-api-express/src/assets"]
       },
@@ -19,8 +19,8 @@
           "inspect": false,
           "fileReplacements": [
             {
-              "replace": "apps/app-api-express/src/environments/environment.ts",
-              "with": "apps/app-api-express/src/environments/environment.prod.ts"
+              "replace": "apps/app-api-express/src/environments/environment.js",
+              "with": "apps/app-api-express/src/environments/environment.prod.js"
             }
           ]
         }
@@ -41,14 +41,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/app-api-express/**/*.ts"]
+        "lintFilePatterns": ["apps/app-api-express/**/*.js"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/apps/app-api-express"],
       "options": {
-        "jestConfig": "apps/app-api-express/jest.config.ts",
+        "jestConfig": "apps/app-api-express/jest.config.js",
         "passWithNoTests": true
       }
     }

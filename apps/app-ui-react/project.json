@@ -12,8 +12,8 @@
         "outputPath": "dist/apps/app-ui-react",
         "index": "apps/app-ui-react/src/index.html",
         "baseHref": "/",
-        "main": "apps/app-ui-react/src/main.tsx",
-        "polyfills": "apps/app-ui-react/src/polyfills.ts",
+        "main": "apps/app-ui-react/src/main.js",
+        "polyfills": "apps/app-ui-react/src/polyfills.js",
         "tsConfig": "apps/app-ui-react/tsconfig.app.json",
         "assets": [
           "apps/app-ui-react/src/favicon.ico",
@@ -33,8 +33,8 @@
         "production": {
           "fileReplacements": [
             {
-              "replace": "apps/app-ui-react/src/environments/environment.ts",
-              "with": "apps/app-ui-react/src/environments/environment.prod.ts"
+              "replace": "apps/app-ui-react/src/environments/environment.js",
+              "with": "apps/app-ui-react/src/environments/environment.prod.js"
             }
           ],
           "optimization": true,
@@ -69,14 +69,6 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": ["apps/app-ui-react/**/*.{ts,tsx,js,jsx}"]
-      }
-    },
-    "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/app-ui-react"],
-      "options": {
-        "jestConfig": "apps/app-ui-react/jest.config.ts",
-        "passWithNoTests": true
       }
     }
   },
