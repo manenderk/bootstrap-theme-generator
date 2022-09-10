@@ -4,10 +4,15 @@
  */
 
 import * as express from 'express';
+import * as logger from 'morgan';
 import BootstrapStyleRouter from './app/bootstrap-styles';
 
 const app = express();
 const appRouter = express.Router();
+
+app.use(logger('dev'))
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 appRouter.use('/boostrap-styles', BootstrapStyleRouter);
 
