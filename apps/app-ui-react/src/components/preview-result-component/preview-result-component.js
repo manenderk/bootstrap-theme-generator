@@ -78,8 +78,7 @@ export function PreviewResultComponent({
                     </div>
                   </div>
                 </nav>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <div class="bs-component">
@@ -126,8 +125,7 @@ export function PreviewResultComponent({
                     </div>
                   </div>
                 </nav>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <div class="bs-component">
@@ -174,8 +172,7 @@ export function PreviewResultComponent({
                     </div>
                   </div>
                 </nav>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
             </div>
@@ -205,8 +202,7 @@ export function PreviewResultComponent({
                 <button type="button" class="btn btn-light">Light</button>
                 <button type="button" class="btn btn-dark">Dark</button>
                 <button type="button" class="btn btn-link">Link</button>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </p>
     
               <p class="bs-component">
@@ -219,8 +215,7 @@ export function PreviewResultComponent({
                 <button type="button" class="btn btn-light disabled">Light</button>
                 <button type="button" class="btn btn-dark disabled">Dark</button>
                 <button type="button" class="btn btn-link disabled">Link</button>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </p>
     
               <p class="bs-component">
@@ -232,8 +227,7 @@ export function PreviewResultComponent({
                 <button type="button" class="btn btn-outline-danger">Danger</button>
                 <button type="button" class="btn btn-outline-light">Light</button>
                 <button type="button" class="btn btn-outline-dark">Dark</button>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </p>
     
               <div class="bs-component">
@@ -284,16 +278,14 @@ export function PreviewResultComponent({
                     </div>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <div class="bs-component">
                 <button type="button" class="btn btn-primary btn-lg">Large button</button>
                 <button type="button" class="btn btn-primary">Default button</button>
                 <button type="button" class="btn btn-primary btn-sm">Small button</button>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-5">
@@ -302,8 +294,7 @@ export function PreviewResultComponent({
                   <button class="btn btn-lg btn-primary" type="button">Block button</button>
                   <button class="btn btn-lg btn-primary" type="button">Block button</button>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <div class="bs-component mb-3">
@@ -315,8 +306,7 @@ export function PreviewResultComponent({
                   <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
                   <label class="btn btn-primary" for="btncheck3">Checkbox 3</label>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <div class="bs-component mb-3">
@@ -328,8 +318,7 @@ export function PreviewResultComponent({
                   <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" checked="">
                   <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <div class="bs-component">
@@ -341,8 +330,7 @@ export function PreviewResultComponent({
                   <button type="button" class="btn btn-primary">Button</button>
                   <button type="button" class="btn btn-primary">Button</button>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <div class="bs-component mb-3">
@@ -351,8 +339,7 @@ export function PreviewResultComponent({
                   <button type="button" class="btn btn-secondary">Middle</button>
                   <button type="button" class="btn btn-secondary">Right</button>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <div class="bs-component mb-3">
@@ -372,8 +359,7 @@ export function PreviewResultComponent({
                     <button type="button" class="btn btn-secondary">8</button>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -406,8 +392,7 @@ export function PreviewResultComponent({
                   <small class="text-muted">with muted text</small>
                 </h3>
                 <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -419,8 +404,7 @@ export function PreviewResultComponent({
                 <p>The following is <strong>rendered as bold text</strong>.</p>
                 <p>The following is <em>rendered as italicized text</em>.</p>
                 <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -433,8 +417,7 @@ export function PreviewResultComponent({
                 <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
                 <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
                 <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -459,8 +442,7 @@ export function PreviewResultComponent({
                     Someone famous in <cite title="Source Title">Source Title</cite>
                   </figcaption>
                 </figure>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -475,8 +457,7 @@ export function PreviewResultComponent({
                     Someone famous in <cite title="Source Title">Source Title</cite>
                   </figcaption>
                 </figure>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -491,8 +472,7 @@ export function PreviewResultComponent({
                     Someone famous in <cite title="Source Title">Source Title</cite>
                   </figcaption>
                 </figure>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -580,8 +560,7 @@ export function PreviewResultComponent({
                     </tr>
                   </tbody>
                 </table>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div><!-- /example -->
             </div>
           </div>
@@ -712,8 +691,7 @@ export function PreviewResultComponent({
                     <button type="submit" class="btn btn-primary">Submit</button>
                   </fieldset>
                 </form>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4 offset-lg-1">
@@ -788,8 +766,7 @@ export function PreviewResultComponent({
                     <label for="floatingPassword">Password</label>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </form>
     
             </div>
@@ -862,8 +839,7 @@ export function PreviewResultComponent({
                       they sold out farm-to-table VHS viral locavore cosby sweater.</p>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
     
@@ -892,8 +868,7 @@ export function PreviewResultComponent({
                     <a class="nav-link disabled" href="#">Disabled</a>
                   </li>
                 </ul>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
               <br>
               <div class="bs-component">
@@ -919,8 +894,7 @@ export function PreviewResultComponent({
                     <a class="nav-link disabled" href="#">Disabled</a>
                   </li>
                 </ul>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -941,8 +915,7 @@ export function PreviewResultComponent({
                   <li class="breadcrumb-item"><a href="#">Library</a></li>
                   <li class="breadcrumb-item active">Data</li>
                 </ol>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
     
@@ -1026,8 +999,7 @@ export function PreviewResultComponent({
                     </li>
                   </ul>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -1055,8 +1027,7 @@ export function PreviewResultComponent({
                     augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur
                       et</a>.</p>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -1068,8 +1039,7 @@ export function PreviewResultComponent({
                   <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting
                   again.
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -1079,8 +1049,7 @@ export function PreviewResultComponent({
                   <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert
                     message</a>.
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -1090,8 +1059,7 @@ export function PreviewResultComponent({
                   <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's
                   not super important.
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -1103,8 +1071,7 @@ export function PreviewResultComponent({
                   <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting
                   again.
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -1114,8 +1081,7 @@ export function PreviewResultComponent({
                   <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert
                     message</a>.
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -1125,8 +1091,7 @@ export function PreviewResultComponent({
                   <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's
                   not super important.
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -1174,8 +1139,7 @@ export function PreviewResultComponent({
                   <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <h3 id="progress-alternatives">Contextual alternatives</h3>
@@ -1196,8 +1160,7 @@ export function PreviewResultComponent({
                   <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;" aria-valuenow="100"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <h3 id="progress-multiple">Multiple bars</h3>
@@ -1210,8 +1173,7 @@ export function PreviewResultComponent({
                   <div class="progress-bar bg-info" role="progressbar" style="width: 20%;" aria-valuenow="20"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <h3 id="progress-striped">Striped</h3>
@@ -1236,8 +1198,7 @@ export function PreviewResultComponent({
                   <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%;"
                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
     
               <h3 id="progress-animated">Animated</h3>
@@ -1246,8 +1207,7 @@ export function PreviewResultComponent({
                   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
                     aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -1287,8 +1247,7 @@ export function PreviewResultComponent({
                     <span class="badge bg-primary rounded-pill">1</span>
                   </li>
                 </ul>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -1298,8 +1257,7 @@ export function PreviewResultComponent({
                   <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
                   <a href="#" class="list-group-item list-group-item-action disabled">Morbi leo risus</a>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -1324,8 +1282,7 @@ export function PreviewResultComponent({
                     <small class="text-muted">Donec id elit non mi porta.</small>
                   </a>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -1403,8 +1360,7 @@ export function PreviewResultComponent({
                       card's content.</p>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-4">
@@ -1473,8 +1429,7 @@ export function PreviewResultComponent({
                       card's content.</p>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
     
@@ -1519,8 +1474,7 @@ export function PreviewResultComponent({
                     <a href="#" class="card-link">Another link</a>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -1592,8 +1546,7 @@ export function PreviewResultComponent({
                     </div>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
@@ -1633,8 +1586,7 @@ export function PreviewResultComponent({
                     </div>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
               <h2>Offcanvas</h2>
               <div class="bs-component">
@@ -1672,8 +1624,7 @@ export function PreviewResultComponent({
                     </div>
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
             <div class="col-lg-6">
@@ -1694,8 +1645,7 @@ export function PreviewResultComponent({
                 <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
                   data-bs-placement="right"
                   data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Right</button>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
               <h2>Tooltips</h2>
               <div class="bs-component mb-5">
@@ -1710,8 +1660,7 @@ export function PreviewResultComponent({
     
                 <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
                   data-bs-placement="right">Right</button>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
               <h2>Toasts</h2>
               <div class="bs-component">
@@ -1727,8 +1676,7 @@ export function PreviewResultComponent({
                     Hello, world! This is a toast message.
                   </div>
                 </div>
-                <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
-                    class="bi bi-code"></i></button>
+                
               </div>
             </div>
           </div>
