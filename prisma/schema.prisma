@@ -1,0 +1,23 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("NX_DATABASE_URL")
+}
+
+model BootstrapVariable {
+  id           Int     @id @default(autoincrement())
+  category     String
+  title        String
+  variableName String
+  description  String?
+  defaultValue String
+  type         String
+  isMapItem    Boolean @default(false)
+  mapName      String?
+}

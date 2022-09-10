@@ -4,12 +4,15 @@
  */
 
 import * as express from 'express';
+import BootstrapStyleRouter from './app/bootstrap-styles';
 
 const app = express();
+const appRouter = express.Router();
 
-app.get('/api', (req, res) => {
-  res.send({ message: 'Welcome to AppApiExpress!' });
-});
+appRouter.use('/boostrap-styles', BootstrapStyleRouter);
+
+app.use('/api', appRouter);
+
 
 const port = process.env.port || 3333;
 const server = app.listen(port, () => {
